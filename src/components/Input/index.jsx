@@ -1,9 +1,9 @@
 import './styled.css';
 
-export function Input({ placeholder, icon: Icon, onChange, onSubmit }) {
+export function Input({ placeholder, type, required, icon: Icon, onChange, onSubmit }) {
   return(
     <div className='container-input'>
-      <input type="text" placeholder={ placeholder } onChange={ onChange }/>
+      <input type={ type } placeholder={ placeholder } onChange={ onChange } required={ required }/>
       { Icon && <Icon onClick={ onSubmit }/> }
     </div>
   );

@@ -10,3 +10,21 @@
   color: #fff;
   font-size: 2.7rem;
 }
+
+.container-result {
+  border: .1rem solid #ddd;
+  border-radius: .25rem;
+  padding: 1.5rem 0 2rem;
+  line-height: 2rem;
+}
+
+.container-result h2 {
+  color: #eee;
+}
+.container-result h3 {
+  color: #eee;
+  margin-bottom: 1.5rem;
+}
+.container h4 {
+  color: #dddddde1;
+}
